@@ -1,2 +1,6 @@
 # Web101
-Examples for using HTML/CSS and JS in Browsers
+
+## Introduction
+
+These examples are very wide because I'm not a frontend developer and just trying to teach
+myself concepts.
