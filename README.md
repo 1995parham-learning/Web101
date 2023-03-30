@@ -15,3 +15,7 @@ This project originally written for IE course on Fall 2020.
 cd intro/
 firefox index.html
 ```
+
+### Image from `fetch`
+
+Sometimes we need to use a `fetch` to read an image and set it into an image element.
