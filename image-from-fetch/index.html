@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script>
+      img = document.getElementById("image");
+      // Fetch the original image
+      fetch("https://github.com/1995parham.png", {})
+        .then((response) => response.arrayBuffer())
+        // Create an object URL for the response
+        .then((buffer) => URL.createObjectURL(new Blob([buffer])))
+        // Update image
+        .then((url) => console.log((image.src = url)))
+        .catch((err) => console.error(err));
+    </script>
+  </head>
+  <body>
+    <img id="image" alt="not yet" />
+  </body>
+</html>
