@@ -7,14 +7,24 @@ myself concepts.
 
 ## Projects
 
+Each project contains static files for CSS, JS and HTML.
+You can run by:
+
+```bash
+cd <project>/
+firefox index.html
+```
+
+or
+
+```bash
+cd <project>/
+python3 -m http.server 8000
+```
+
 ### Intro
 
 This project originally written for IE course on Fall 2020.
-
-```bash
-cd intro/
-firefox index.html
-```
 
 ### Image from `fetch`
 
